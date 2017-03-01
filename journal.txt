@@ -1,0 +1,3 @@
+* 1 Mar 2017
+- To restart apache: sudo /etc/init.d/apache2 restart
+- Config files: /etc/apache2/apache2.conf; other config files in same folder
