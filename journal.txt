@@ -1,8 +1,0 @@
-* 1 Mar 2017
-- To restart apache: sudo /etc/init.d/apache2 restart
-- Config files: /etc/apache2/apache2.conf; other config files in same folder
-- fastcgi + nginx: http://www.eschrade.com/page/why-is-fastcgi-w-nginx-so-much-faster-than-apache-w-mod_php/
-- To enable modules in apache: a2enmod: a2enmod rewrite, a2enmod userdir; a2dismod to disable
-- Similarly, to enable sites in sites-available: a2ensite, a2dissite
-
-* 2 Mar
