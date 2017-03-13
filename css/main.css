@@ -3,4 +3,37 @@ body {
   color: purple;
 }
 
+#meadow{
+    width: 200px;
+    height: auto;
+    opacity: 0.8;
+}
+
+#meadow:hover {
+    opacity: 1.0;
+}
+
+.icon {
+    height: 150px;
+    width: auto
+}
+
+.mycan{
+    height: 150px;
+    width: 0px;
+}
+
+#head a {
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font: Arial;
+    font-size: 42px;
+    font-weight: bold;
+    color: blue
+}
+
+#head:hover {
+    background-color: antiquewhite;
+}
 /*palegoldenrod
