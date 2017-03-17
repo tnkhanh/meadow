@@ -2,14 +2,16 @@
 <html>
     <head>
         <title> Housee! The housing site! </title>
-        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/general.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
         <h1> Housee </h1>
-        <button type="button"> Log in </button>
-        <button type="button"> Sign up </button>
+        <button type="button" id="login-btn"> Log in </button>
+        <button type="button" id="signup-btn"> Sign up </button>
+        <button type="button" id="no-btn"> No, thanks! </button>
 
-        <div id="log-in">
+        <div id="log-in" class="log-form">
             <form>
                 Username: <input type="text" name="username" value="?"> <br>
                 Password: <input type="password" name="password"> <br>
@@ -17,7 +19,7 @@
             </form>
         </div>
 
-        <div id="sign-up">
+        <div id="sign-up" class="log-form">
             <form>
                 Username: <input type="text" name="username" value="?"> <br>
                 Password: <input type="password" name="password"> <br>
@@ -26,5 +28,6 @@
                 <button type="button"> Sign up! </button>
             </form>
         </div>
+        <script src="js/main.js"> </script>
     </body>
 <html>
